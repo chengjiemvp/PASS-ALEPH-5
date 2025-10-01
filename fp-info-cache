@@ -1,4 +1,4 @@
-26507218565972348
+26512505453821276
 3rd package
 1N4739ATR
 ZENER D 9.1V
@@ -105223,13 +105223,6 @@ connectors
 0
 5
 5
-connectors
-SBR 4LINE
-
-
-0
-4
-4
 cus_capacitor
 50PX1000MEFC12.5X25
 DIP 1000UF 50V
@@ -105426,6 +105419,13 @@ Integrated Circuit
 0
 4
 4
+cus_mosfet
+IRFP240PBF
+N沟道
+MOSFET (N-Channel)
+0
+3
+3
 cus_optocouple
 SFH6206-2T
 SMD-4, Option  9
@@ -105443,6 +105443,27 @@ RSF5SSJT-73-150R
 cus_resistor
 RSF5SSJT-73-150R_Vertical
 金属膜电阻 150Ω ±5% 5W
+
+0
+2
+2
+cus_resistor
+SMW 5W 150R J
+SMW 5W 150R J
+
+0
+2
+2
+cus_resistor
+SMW3R47JT
+绕线电阻 470mΩ ±5% 3W
+
+0
+2
+2
+cus_resistor
+SMW51R0JT
+绕线电阻 1Ω ±5% 5W
 
 0
 2

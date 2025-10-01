@@ -252,7 +252,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1028700|1612900|6469facc-d02b-4593-974e-88e9da76bfb6|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|266700|1612900|e04fe82b-a32d-417e-81a5-1bbb49c9ed0a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|266700|1816100|0851a8f8-8514-44fa-962c-b0edf5b06b16|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|660400|1612900|a9da4b34-bfd2-404e-bad0-4e2e722bd14c|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|660400|1816100|feb360b4-ae04-412c-bdc9-7bedbebd6945|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -438,7 +459,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "error",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -462,7 +483,7 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "error",
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -499,7 +520,8 @@
       "cus_zener",
       "cus_ldo",
       "cus_transistor",
-      "cus_mosfet"
+      "cus_mosfet",
+      "cus_connector"
     ]
   },
   "meta": {
@@ -541,8 +563,8 @@
       "netlist": "",
       "plot": "../../../../../Downloads/",
       "pos_files": "../../../../../Downloads/",
-      "specctra_dsn": "",
-      "step": "",
+      "specctra_dsn": "../../../../../Downloads/PASS A5功放.dsn",
+      "step": "../../../../../Downloads/PASS A5功放.step",
       "svg": "",
       "vrml": ""
     },

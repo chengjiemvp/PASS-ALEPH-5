@@ -14,6 +14,106 @@
 		(comment 3 "50W OUTPUT")
 	)
 	(lib_symbols
+		(symbol "2线焊盘_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN8"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2线焊盘_1_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2线焊盘_1_1_1"
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "3rd_components:OPA1611AIDR"
 			(pin_names
 				(offset 0.762)
@@ -432,542 +532,6 @@
 						(effects
 							(font
 								(size 1.2 1.2)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CN-OUT_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN5"
-				(at -4.572 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "~"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "connectors:2线焊盘"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CN-OUT_1_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CN-OUT_1_1_1"
-				(pin passive line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "AC_DET"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CN-VIN_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN1"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "~"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "connectors:4线焊盘"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CN-VIN_1_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CN-VIN_1_1_1"
-				(pin passive line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "VEE"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CN:2线焊盘"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN4"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "~"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2线焊盘_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2线焊盘_1_1"
-				(pin power_out line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "DC24V"
-						(effects
-							(font
-								(size 1.2 1.2)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.2 1.2)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.2 1.2)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.2 1.2)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CN:CN-OUT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CN-OUT_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CN-OUT_1_1"
-				(pin passive line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CN:CN-VIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CN-VIN_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CN-VIN_1_1"
-				(pin passive line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "RCA"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "XLR+"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "XLR-"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.25 1.25)
 							)
 						)
 					)
@@ -1579,6 +1143,442 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_connector:1线焊盘"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN10"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1线焊盘_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1线焊盘_1_1"
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "AC_DET"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_connector:2线焊盘"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN9"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2线焊盘_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2线焊盘_1_1"
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "DC35V"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_connector:3线焊盘"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN6"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3线焊盘_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3线焊盘_1_1"
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "VEE"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cus_connector:4线焊盘"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN7"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4线焊盘_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4线焊盘_1_1"
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "RCA"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "XLR+"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "XLR-"
+						(effects
+							(font
+								(size 1.2 1.2)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.2 1.2)
 							)
 						)
 					)
@@ -3550,7 +3550,7 @@
 		(uuid "b88e7a61-7da3-44f8-8eb1-45639014c65a")
 	)
 	(junction
-		(at 49.53 160.02)
+		(at 49.53 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c46103c6-c9d0-4f11-bbb1-13aa2160cfc7")
@@ -3709,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 156.21) (xy 49.53 160.02)
+			(xy 49.53 157.48) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4039,7 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 162.56) (xy 40.64 162.56)
+			(xy 35.56 165.1) (xy 40.64 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 160.02) (xy 52.07 160.02)
+			(xy 49.53 161.29) (xy 52.07 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4769,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 160.02) (xy 49.53 160.02)
+			(xy 35.56 161.29) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5390,7 @@
 		(uuid "ba3ee73c-1cbd-4c8c-98eb-4d58b4a868ed")
 	)
 	(label "VEE"
-		(at 40.64 162.56 0)
+		(at 40.64 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5476,6 +5476,74 @@
 			(justify left bottom)
 		)
 		(uuid "fd155c40-d7ac-46e9-9033-4eba50d6e06a")
+	)
+	(symbol
+		(lib_id "cus_connector:2线焊盘")
+		(at 26.67 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0851a8f8-8514-44fa-962c-b0edf5b06b16")
+		(property "Reference" "CN2"
+			(at 26.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 26.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connectors:2线焊盘"
+			(at 26.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf3cf1ca-cc90-48fb-b8a1-2f29c7f06af6")
+		)
+		(pin "2"
+			(uuid "00874162-0529-4698-b736-9969e2537132")
+		)
+		(instances
+			(project ""
+				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "generic components:C_Unpolarized")
@@ -5691,7 +5759,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 49.53 156.21 0)
+		(at 49.53 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5700,7 +5768,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d320ad6-95e2-4c89-8784-7b957d26b8dd")
 		(property "Reference" "#FLG02"
-			(at 49.53 154.305 0)
+			(at 49.53 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5777,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 49.53 151.13 0)
+			(at 49.53 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 156.21 0)
+			(at 49.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 156.21 0)
+			(at 49.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5803,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 49.53 156.21 0)
+			(at 49.53 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +6055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "114275d7-7960-43c5-a5d2-308b1c517545")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 223.52 104.14 90)
 			(effects
 				(font
@@ -6040,7 +6108,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6055,7 +6123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a5949c-5dda-424d-ab86-199ccf63e67f")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 182.88 54.61 90)
 			(effects
 				(font
@@ -6108,7 +6176,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6123,7 +6191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1952dade-aaef-482e-81e1-1293aaccaaa1")
-		(property "Reference" "C25"
+		(property "Reference" "C6"
 			(at 150.114 48.26 90)
 			(effects
 				(font
@@ -6314,7 +6382,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C25")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6329,7 +6397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22a98d29-bbe9-4f44-a3b1-6465ea2bb498")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 185.42 60.96 0)
 			(effects
 				(font
@@ -6380,7 +6448,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6388,7 +6456,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 52.07 160.02 90)
+		(at 52.07 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6396,7 +6464,7 @@
 		(dnp no)
 		(uuid "275259c6-6d33-4c30-9c07-e98c03eefc1f")
 		(property "Reference" "#PWR02"
-			(at 52.07 160.02 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.324 159.512 90)
+			(at 52.324 160.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +6482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 160.02 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 160.02 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 52.07 160.02 0)
+			(at 52.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31771fe1-bafb-4519-9ca9-b37f49ad7f75")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 241.3 111.76 90)
 			(effects
 				(font
@@ -6514,7 +6582,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6595,7 +6663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a64afcc-69f4-44b3-a92d-62375b9fd62d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR012"
 			(at 181.61 30.48 0)
 			(effects
 				(font
@@ -6646,7 +6714,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR022")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6661,7 +6729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e6f0375-653e-4644-a15d-b67fb8019099")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR015"
 			(at 198.12 119.38 0)
 			(effects
 				(font
@@ -6712,74 +6780,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CN:CN-OUT")
-		(at 102.87 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fa1c853-56c6-46f3-9842-b77374b3ad7d")
-		(property "Reference" "CN5"
-			(at 98.298 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 102.87 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connectors:2线焊盘"
-			(at 102.87 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea58de7f-e300-4132-b5b6-424a1b165f1d")
-		)
-		(pin "2"
-			(uuid "ed41cd40-b6e3-43b1-a7d8-e1f8b7868970")
-		)
-		(instances
-			(project ""
-				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "CN5")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6992,74 +6993,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CN:2线焊盘")
-		(at 26.67 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4551dba0-9848-47bc-b156-776aac3b88b4")
-		(property "Reference" "CN2"
-			(at 26.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 26.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connectors:2线焊盘"
-			(at 26.67 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d07b8f04-6918-4532-a1b8-bdc88dfa17ac")
-		)
-		(pin "1"
-			(uuid "ff36a85e-233f-4e72-a652-967fc550ec86")
-		)
-		(instances
-			(project ""
-				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "CN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 38.1 186.69 180)
 		(unit 1)
@@ -7217,7 +7150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a16b41a-08d7-4864-bbc6-882a2a6b0f8f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 166.37 113.03 0)
 			(effects
 				(font
@@ -7268,7 +7201,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "512bfad7-1730-4509-a40d-05d968bc23be")
-		(property "Reference" "C26"
+		(property "Reference" "C8"
 			(at 184.404 34.29 90)
 			(effects
 				(font
@@ -7857,7 +7790,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C26")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e508390-d1c0-40ca-beb5-236a37760924")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -8343,7 +8276,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8424,6 +8357,75 @@
 		)
 	)
 	(symbol
+		(lib_name "2线焊盘_1")
+		(lib_id "cus_connector:2线焊盘")
+		(at 102.87 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6469facc-d02b-4593-974e-88e9da76bfb6")
+		(property "Reference" "CN5"
+			(at 102.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connectors:2线焊盘"
+			(at 102.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "698b0c43-dc8d-4e19-89d0-c56f490da916")
+		)
+		(pin "2"
+			(uuid "d894e9b9-b514-4c18-8d2c-116f7fc934aa")
+		)
+		(instances
+			(project ""
+				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "generic components:R")
 		(at 241.3 82.55 180)
 		(unit 1)
@@ -8432,7 +8434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66c92a7b-d868-427a-96e2-ed3ab40165b6")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 238.76 83.82 90)
 			(effects
 				(font
@@ -8485,7 +8487,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8568,7 +8570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e2f2a6b-b9e2-427f-aff7-06f1944b23dd")
-		(property "Reference" "R55"
+		(property "Reference" "R8"
 			(at 180.3399 77.47 90)
 			(effects
 				(font
@@ -8586,7 +8588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cus_resistor:RSF5SSJT-73-150R_Vertical"
+		(property "Footprint" "cus_resistor:SMW 5W 150R J"
 			(at 180.594 79.756 90)
 			(effects
 				(font
@@ -8622,7 +8624,7 @@
 		(instances
 			(project ""
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R55")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8841,78 +8843,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CN-VIN_1")
-		(lib_id "CN:CN-VIN")
-		(at 26.67 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70eed785-a611-46e0-86fc-05e06a03926c")
-		(property "Reference" "CN1"
-			(at 26.67 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 26.67 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "connectors:4线焊盘"
-			(at 26.67 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a5bac43-5237-4d00-9a5f-e04f9ca31eef")
-		)
-		(pin "2"
-			(uuid "872fd11c-dd53-4d56-be95-6ed5331ed316")
-		)
-		(pin "3"
-			(uuid "bb33aab7-e196-4f3d-af23-194c7b5016b1")
-		)
-		(instances
-			(project "PASS A5功放"
-				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 129.54 27.94 270)
 		(unit 1)
@@ -8987,7 +8917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79f0ddd9-aa12-4107-9095-4f5b1d928240")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 200.66 35.56 90)
 			(effects
 				(font
@@ -9040,7 +8970,7 @@
 		(instances
 			(project ""
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e80254c-084c-4a8d-b89e-59e3ff2f9879")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -9473,7 +9403,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9488,7 +9418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ba03a2b-5ca5-4126-af47-74f157f7cff9")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 212.344 100.33 90)
 			(effects
 				(font
@@ -9679,7 +9609,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9694,7 +9624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc1c633-ee66-4a84-8e14-9ea12cfea2c9")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 200.66 55.88 90)
 			(effects
 				(font
@@ -9747,7 +9677,7 @@
 		(instances
 			(project ""
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10136,7 +10066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ab54db4-7f68-486c-b883-cb639f24a632")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 249.174 81.28 90)
 			(effects
 				(font
@@ -10327,7 +10257,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C15")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10479,7 +10409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2c19ca7-423b-4f0f-a94d-4918fadbc474")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 149.352 118.872 0)
 			(effects
 				(font
@@ -10668,7 +10598,7 @@
 		(instances
 			(project ""
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10895,7 +10825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a469e874-f6c8-4049-88bb-3bbdca9dbd33")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 212.344 90.17 90)
 			(effects
 				(font
@@ -11086,7 +11016,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11169,6 +11099,80 @@
 		)
 	)
 	(symbol
+		(lib_id "cus_connector:4线焊盘")
+		(at 66.04 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9da4b34-bfd2-404e-bad0-4e2e722bd14c")
+		(property "Reference" "CN3"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connectors:4线焊盘"
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "42ad9e84-e2cf-4b5a-b99a-65687a9becd4")
+		)
+		(pin "3"
+			(uuid "b30e40d7-74e4-4a8f-ba65-24f01bd72a0c")
+		)
+		(pin "1"
+			(uuid "620072f4-6aa1-4ce9-98e5-2fb1189cf8de")
+		)
+		(pin "2"
+			(uuid "77e31def-1a44-43bb-98b4-8c93830a8139")
+		)
+		(instances
+			(project ""
+				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "generic components:R")
 		(at 226.06 91.44 180)
 		(unit 1)
@@ -11177,7 +11181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b558e146-fc91-4501-bfb6-dc01b427fdd6")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 223.52 92.71 90)
 			(effects
 				(font
@@ -11230,7 +11234,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11321,7 +11325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5fbcd7f-65a3-4472-8571-6e66e92a5e1d")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 251.714 109.22 90)
 			(effects
 				(font
@@ -11512,7 +11516,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "C16")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11587,17 +11591,17 @@
 		)
 	)
 	(symbol
-		(lib_name "CN-OUT_1")
-		(lib_id "CN:CN-OUT")
-		(at 66.04 181.61 0)
+		(lib_id "cus_connector:3线焊盘")
+		(at 26.67 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1a21ce5-95aa-4c24-9ec0-7f127bb8e5f6")
-		(property "Reference" "CN4"
-			(at 61.468 173.99 0)
+		(fields_autoplaced yes)
+		(uuid "e04fe82b-a32d-417e-81a5-1bbb49c9ed0a")
+		(property "Reference" "CN1"
+			(at 26.67 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,15 +11609,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 66.04 173.99 0)
+			(at 26.67 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "connectors:2线焊盘"
-			(at 66.04 181.61 0)
+		(property "Footprint" "connectors:3线焊盘"
+			(at 26.67 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +11626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 181.61 0)
+			(at 26.67 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 181.61 0)
+			(at 26.67 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,13 +11643,19 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "9b68b05a-f1b2-419f-a632-73f7f3a4d5e1")
+		)
 		(pin "1"
-			(uuid "38b1c672-8575-4118-869e-2619c2481eba")
+			(uuid "aedf3dfd-a3fd-4ee0-add1-54b2dbd6ed2e")
+		)
+		(pin "2"
+			(uuid "d421047d-d002-4610-ab70-c6c6c319b382")
 		)
 		(instances
-			(project "PASS A5功放"
+			(project ""
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "CN4")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -11661,7 +11671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2bec0e2-12e7-40d0-8d57-92218209fa60")
-		(property "Reference" "R56"
+		(property "Reference" "R9"
 			(at 180.3399 116.84 90)
 			(effects
 				(font
@@ -11679,7 +11689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "cus_resistor:RSF5SSJT-73-150R_Vertical"
+		(property "Footprint" "cus_resistor:SMW 5W 150R J"
 			(at 180.594 119.126 90)
 			(effects
 				(font
@@ -11715,7 +11725,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "R56")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11730,7 +11740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7230177-d31e-475d-9e6c-5be8ce9e4b72")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR014"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -11781,7 +11791,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11871,7 +11881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8d7126b-6609-4ee8-864f-992a1d547b35")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR09"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -11922,7 +11932,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR021")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11938,7 +11948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f49755a4-67ef-452b-ac53-9b16cb62b6ff")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 166.37 120.65 0)
 			(effects
 				(font
@@ -11989,7 +11999,7 @@
 		(instances
 			(project "PASS A5功放"
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12002,17 +12012,17 @@
 		)
 	)
 	(symbol
-		(lib_id "CN:CN-VIN")
-		(at 66.04 161.29 0)
+		(lib_id "cus_connector:1线焊盘")
+		(at 66.04 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fccf6eaf-5bca-4ea6-b536-92afdef1d13f")
-		(property "Reference" "CN3"
-			(at 66.04 151.13 0)
+		(uuid "feb360b4-ae04-412c-bdc9-7bedbebd6945")
+		(property "Reference" "CN4"
+			(at 66.04 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,15 +12030,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 66.04 153.67 0)
+			(at 66.04 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "connectors:4线焊盘"
-			(at 66.04 161.29 0)
+		(property "Footprint" "connectors:1线焊盘"
+			(at 66.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 161.29 0)
+			(at 66.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12056,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 161.29 0)
+			(at 66.04 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,21 +12065,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1acaf323-d81e-4cc1-9048-21a945039f8f")
-		)
-		(pin "2"
-			(uuid "1c1239c4-1b23-48f9-a141-c63882330928")
-		)
-		(pin "3"
-			(uuid "1862fb80-0ec0-4f1f-b712-c8d461e05bcf")
-		)
-		(pin "4"
-			(uuid "99355fbb-fc96-4861-bcbe-55c5f0e9b1b2")
+			(uuid "d677acd1-905e-4c02-991d-dd7850f3b124")
 		)
 		(instances
 			(project ""
 				(path "/d3bf1cd6-38d3-4d36-b0f0-ebb1791e32da"
-					(reference "CN3")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
