@@ -438,7 +438,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "error",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -462,7 +462,7 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "error",
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -499,7 +499,8 @@
       "cus_zener",
       "cus_ldo",
       "cus_transistor",
-      "cus_mosfet"
+      "cus_mosfet",
+      "cus_connector"
     ]
   },
   "meta": {
@@ -509,7 +510,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 16,
+        "bus_width": 20,
         "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -524,7 +525,7 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 8
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -541,8 +542,8 @@
       "netlist": "",
       "plot": "../../../../../Downloads/",
       "pos_files": "../../../../../Downloads/",
-      "specctra_dsn": "",
-      "step": "",
+      "specctra_dsn": "../../../../../Downloads/PASS A5功放.dsn",
+      "step": "../../../../../Downloads/PASS A5功放.step",
       "svg": "",
       "vrml": ""
     },
