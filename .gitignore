@@ -2,4 +2,4 @@ bom/
 PASS\ A5功放/
 PASS\ A5功放-backups/
 fp-info-cache
-
+*.kicad_sch.lck
