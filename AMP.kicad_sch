@@ -4343,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRFP240PBF"
+		(property "Footprint" "cus_mosfet:IRFP240PBF"
 			(at 208.28 48.26 0)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF9610PBF"
+		(property "Footprint" "cus_mosfet:IRF9610PBF"
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -6105,7 +6105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRFP240PBF"
+		(property "Footprint" "cus_mosfet:IRFP240PBF"
 			(at 208.28 130.81 0)
 			(effects
 				(font
@@ -7921,7 +7921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF9610PBF"
+		(property "Footprint" "cus_mosfet:IRF9610PBF"
 			(at 66.04 86.36 0)
 			(effects
 				(font
@@ -9271,7 +9271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRFP240PBF"
+		(property "Footprint" "cus_mosfet:IRFP240PBF"
 			(at 180.34 48.26 0)
 			(effects
 				(font
@@ -10125,7 +10125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRFP240PBF"
+		(property "Footprint" "cus_mosfet:IRFP240PBF"
 			(at 231.14 130.81 0)
 			(effects
 				(font
@@ -10271,7 +10271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRFP240PBF"
+		(property "Footprint" "cus_mosfet:IRFP240PBF"
 			(at 231.14 48.26 0)
 			(effects
 				(font
@@ -11230,7 +11230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRFP240PBF"
+		(property "Footprint" "cus_mosfet:IRFP240PBF"
 			(at 180.34 130.81 0)
 			(effects
 				(font
@@ -11839,7 +11839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "3rd package:IRF9610PBF"
+		(property "Footprint" "cus_mosfet:IRF9610PBF"
 			(at 82.55 86.36 0)
 			(effects
 				(font
